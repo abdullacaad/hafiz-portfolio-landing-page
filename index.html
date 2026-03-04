@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Web Developer & Designer">
+    <title>My Portfolio</title>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="#home">HAR</a>
+                </div>
+                
+                <!-- Hamburger Menu -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Featured/Home Section -->
+    <section id="home" class="featured-section">
+        <div class="container">
+            <div class="featured-content">
+                <div class="featured-text reveal-left">
+                    <h1>Hi, I'm <span class="highlight-name">Hafiz Abdul Rafay</span></h1>
+                    <h2 class="typing-text">
+                        <span class="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="featured-description">
+                        Passionate about creating elegant solutions to complex problems. 
+                        I specialize in building modern web applications that combine 
+                        beautiful design with powerful functionality.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary pulse-btn">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                
+                <div class="featured-image reveal-right">
+                    <div class="image-wrapper floating">
+                        <img src="avatar.png" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header reveal-fade">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text reveal-left">
+                    <p>
+                        I'm a dedicated web developer with a passion for creating innovative 
+                        and user-friendly digital experiences. With expertise in modern web 
+                        technologies, I transform ideas into reality through clean code and 
+                        creative problem-solving.
+                    </p>
+                    <p>
+                        My journey in web development has equipped me with a diverse skill set 
+                        and the ability to adapt to new challenges. I'm always eager to learn 
+                        and stay updated with the latest industry trends and best practices.
+                    </p>
+                </div>
+                
+                <div class="skills-container reveal-right">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-box">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML5</h4>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS3</h4>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-js"></i>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-react"></i>
+                            <h4>React</h4>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-node"></i>
+                            <h4>Node.js</h4>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-python"></i>
+                            <h4>Python</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header reveal-fade">
+                <h2 class="section-title">My Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Here are some of my recent works</p>
+            </div>
+            
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card reveal-scale">
+                    <div class="p1.png">
+                        <img src="https://via.placeholder.com/600x400/174687/ffffff?text=E-Commerce+Platform" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with advanced features and secure payment integration.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> User authentication & authorization</li>
+                            <li><i class="fas fa-check"></i> Shopping cart & checkout system</li>
+                            <li><i class="fas fa-check"></i> Payment gateway integration</li>
+                            <li><i class="fas fa-check"></i> Admin dashboard</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal-scale">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/174687/ffffff?text=Task+Manager" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management tool with real-time updates and team features.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Real-time collaboration</li>
+                            <li><i class="fas fa-check"></i> Drag & drop interface</li>
+                            <li><i class="fas fa-check"></i> Project boards & lists</li>
+                            <li><i class="fas fa-check"></i> Team management</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Vuex</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal-scale">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/174687/ffffff?text=Social+Media" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Media Dashboard</h3>
+                        <p>A comprehensive analytics dashboard for social media management across platforms.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Multi-platform integration</li>
+                            <li><i class="fas fa-check"></i> Advanced analytics</li>
+                            <li><i class="fas fa-check"></i> Scheduled posting</li>
+                            <li><i class="fas fa-check"></i> Performance metrics</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card reveal-scale">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/174687/ffffff?text=Weather+App" alt="Project 4">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Forecast App</h3>
+                        <p>A beautiful weather application with detailed forecasts and location-based services.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Real-time weather data</li>
+                            <li><i class="fas fa-check"></i> 7-day forecast</li>
+                            <li><i class="fas fa-check"></i> Geolocation support</li>
+                            <li><i class="fas fa-check"></i> Interactive maps</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">Leaflet.js</span>
+                            <span class="tech-tag">SASS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card reveal-scale">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/174687/ffffff?text=Portfolio+Builder" alt="Project 5">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Builder</h3>
+                        <p>A drag-and-drop portfolio website builder with customizable templates and themes.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Drag & drop editor</li>
+                            <li><i class="fas fa-check"></i> Multiple templates</li>
+                            <li><i class="fas fa-check"></i> Custom domain support</li>
+                            <li><i class="fas fa-check"></i> SEO optimization</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Prisma</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card reveal-scale">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/174687/ffffff?text=Fitness+Tracker" alt="Project 6">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Tracker</h3>
+                        <p>A comprehensive fitness tracking app with workout plans and progress monitoring.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Workout logging</li>
+                            <li><i class="fas fa-check"></i> Progress charts</li>
+                            <li><i class="fas fa-check"></i> Nutrition tracking</li>
+                            <li><i class="fas fa-check"></i> Goal setting</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header reveal-fade">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            
+            <div class="contact-content">
+                
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper reveal-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary pulse-btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info reveal-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>mebdulrafay@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>0311 7258631</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>PAKISTAN ,MIANWALI</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/hafiz-abdul-rafay" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Hafiz Abdul Rafay. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/hafiz-abdul-rafay" class="footer-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="footer-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer-icon"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <!-- Load main interactions -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
